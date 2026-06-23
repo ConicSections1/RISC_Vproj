@@ -1,0 +1,4 @@
+{
+    "python-envs.defaultEnvManager": "/home/arachnid/miniforge3/envs/ee/bin/python",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
