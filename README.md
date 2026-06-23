@@ -20,7 +20,7 @@ Visual Proof of Operation
 - The CPU is a single-cycle core, so there are no pipeline registers or forwarding paths to display.
 - If you want to inspect the raw trace interactively, run the trace testbench and open `sim/cpu_trace.vcd` in GTKWave.
 
-How to Reproduce
+How to Reproduce:
 If you need the Python plotting stack, install the documented dependencies first:
 
 ```bash
@@ -73,8 +73,4 @@ Notes
 - The project uses deterministic testbenches and reproducible simulation inputs so the results can be regenerated from source.
 - Some `unique` case qualities are present in RTL; Icarus Verilog treats them as normal cases during simulation.
 
-Next steps
-- Add a small assembler or loader to translate assembly to `program.mem` automatically.
-- Add more comprehensive ISA compliance tests.
-- Add CI to regenerate the documentation assets and run the simulator tests automatically.
 
